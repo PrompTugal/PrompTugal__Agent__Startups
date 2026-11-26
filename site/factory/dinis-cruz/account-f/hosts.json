@@ -1,0 +1,1240 @@
+{
+ "agent": "cl-6.startups@PrompTugal.dinis",
+ "made": "2026-11-26",
+ "note": "By my own account, from the sources named in the site's data (the 18 Nov terms scan by startups.b, in data/source-licences.json of PrompTugal__News__Startups). The terms column is OUR record, not a ruling by cl-6.rights; cl-6.rights should check it. Never machine-read: websummit.com, lu.ma, luma.com, meetup.com, eventbrite.*; a refusal (403, 429, bot-check page) is recorded as a gap and never worked around. 'facts' counts the entries in data/facts.json whose source is that host. Also read earlier, not in the table: the investors' and universities' own sites named in data/research/london.json.",
+ "tool_and_infrastructure_hosts": [
+  {
+   "host": "raw.githubusercontent.com",
+   "why": "my ABP grant and the ABP templates, read at each wake",
+   "terms_as_we_recorded": "GitHub's terms; public repositories"
+  },
+  {
+   "host": "startups.promptugal.news",
+   "why": "check that my own release deployed (version.json, data/facts.json)",
+   "terms_as_we_recorded": "our own site, CC BY 4.0"
+  },
+  {
+   "host": "library.promptugal.news",
+   "why": "the predictions form (read once)",
+   "terms_as_we_recorded": "our own site"
+  },
+  {
+   "host": "WebSearch service (search results only)",
+   "why": "to find new rounds and calls; each fact is then read at its own source page",
+   "terms_as_we_recorded": "search results are used for discovery only; nothing is copied from them"
+  }
+ ],
+ "source_hosts": [
+  {
+   "host": "www.barlavento.pt",
+   "facts": 45,
+   "example_endpoint": "https://www.barlavento.pt/olhao-anje-criar-startup-hub-empresarial/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "uptec.up.pt",
+   "facts": 37,
+   "example_endpoint": "https://uptec.up.pt/en/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://uptec.up.pt/termos-e-condicoes"
+  },
+  {
+   "host": "postal.pt",
+   "facts": 27,
+   "example_endpoint": "https://postal.pt/algarve/freguesia-de-vrsa-cria-gabinete-para-apoiar-desempregados-e-jovens-empreendedores/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://postal.pt/legal/politica-de-privacidade/"
+  },
+  {
+   "host": "eco.sapo.pt",
+   "facts": 27,
+   "example_endpoint": "https://eco.sapo.pt/2026/06/15/processo-de-incubacao-de-empresas-inovadoras-o-caso-da-area-da-saude-no-algarve/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://eco.sapo.pt/termos-e-condicoes/"
+  },
+  {
+   "host": "www.ipn.pt",
+   "facts": 22,
+   "example_endpoint": "https://www.ipn.pt/incubadora/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "aihub.unicornfactorylisboa.com",
+   "facts": 16,
+   "example_endpoint": "https://aihub.unicornfactorylisboa.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://unicornfactorylisboa.com/terms-and-conditions/"
+  },
+  {
+   "host": "unicornfactorylisboa.com",
+   "facts": 10,
+   "example_endpoint": "https://unicornfactorylisboa.com/active-programs/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://unicornfactorylisboa.com/terms-and-conditions/"
+  },
+  {
+   "host": "www.startupportugal.com",
+   "facts": 10,
+   "example_endpoint": "https://www.startupportugal.com",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "eic.ec.europa.eu",
+   "facts": 9,
+   "example_endpoint": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "licence: Creative Commons Attribution 4.0 International (CC BY 4.0), under Commission Decision 2011/833/EU on the reuse (https://commission.europa.eu/legal-notice_en)"
+  },
+  {
+   "host": "vestbee.com",
+   "facts": 9,
+   "example_endpoint": "https://vestbee.com/insights/articles/top-european-funding-rounds-closed-in-october-2026",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startupleiria.com",
+   "facts": 9,
+   "example_endpoint": "https://startupleiria.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://startupleiria.com/termos-e-condicoes/"
+  },
+  {
+   "host": "bealgarve.pt",
+   "facts": 7,
+   "example_endpoint": "https://bealgarve.pt/pt/ecossistema/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.startupbraga.com",
+   "facts": 7,
+   "example_endpoint": "https://www.startupbraga.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.jornaldenegocios.pt",
+   "facts": 7,
+   "example_endpoint": "https://www.jornaldenegocios.pt/empresas/detalhe/portugal-ventures-investe-2-1-milhoes-em-novas-14-startups",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "noticias.up.pt",
+   "facts": 7,
+   "example_endpoint": "https://noticias.up.pt/2026/11/06/startup-da-uptec-atrai-investimento-de-16-milhoes-e-prepara-expansao-europeia/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "portugalglobal.pt",
+   "facts": 6,
+   "example_endpoint": "https://portugalglobal.pt/en/news/2025/february/portuguese-proptech-relive-secures-55m",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://portugalglobal.pt/termos-e-condicoes/"
+  },
+  {
+   "host": "hrportugal.sapo.pt",
+   "facts": 6,
+   "example_endpoint": "https://hrportugal.sapo.pt/programa-de-incubacao-de-startups-do-tecnico-ja-abriu-candidaturas-e-tem-novidades/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://hrportugal.sapo.pt/termos-e-condicoes/"
+  },
+  {
+   "host": "tech.eu",
+   "facts": 6,
+   "example_endpoint": "https://tech.eu/2026/07/15/pollen-is-building-the-battery-swapping-network-electric-motorcycles-have-been-waiting-for/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://tech.eu/terms-conditions/"
+  },
+  {
+   "host": "www.portugalglobal.pt",
+   "facts": 6,
+   "example_endpoint": "https://www.portugalglobal.pt/en/news/2026/julho/lisbon-based-bizay-raises-487-million-series-d/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "transparencia.gov.pt",
+   "facts": 6,
+   "example_endpoint": "https://transparencia.gov.pt/en/fundos-europeus/prr/beneficiarios-projetos/beneficiario/506772446/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-viana-castelo.pt",
+   "facts": 6,
+   "example_endpoint": "https://www.cm-viana-castelo.pt/investir/eportugal-gov-pt-balcao-do-empreendedor",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-silves.pt",
+   "facts": 5,
+   "example_endpoint": "https://www.cm-silves.pt/pt/menu/67/gel---gabinete-de-empreendedorismo-local.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.ualg.pt",
+   "facts": 5,
+   "example_endpoint": "https://www.ualg.pt/en/incubation",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startupportugal.com",
+   "facts": 5,
+   "example_endpoint": "https://startupportugal.com/we-offer-a-complete-ecosystem-straight-from-airv-business-incubator/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.forbespt.com",
+   "facts": 5,
+   "example_endpoint": "https://www.forbespt.com/?p=168719",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "dinheirovivo.dn.pt",
+   "facts": 5,
+   "example_endpoint": "https://dinheirovivo.dn.pt/fazedores/chic-by-choice-fecha-ronda-de-financiamento-de-15-milhoes-12862412.html",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://www.dn.pt/termos-de-utilizacao"
+  },
+  {
+   "host": "business-it.pt",
+   "facts": 5,
+   "example_endpoint": "https://business-it.pt/2026/02/13/delox-fecha-ronda-serie-a-no-valor-de-16-milhoes-de-euros-para-apoiar-id-e-a-internacionalizacao/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "dnbrasil.dn.pt",
+   "facts": 5,
+   "example_endpoint": "https://dnbrasil.dn.pt/negcios-br/mais-dez-empresas-de-tecnologia-brasileiras-chegam-ao-cais-do-porto-em-aveiro",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://www.dn.pt/termos-de-utilizacao"
+  },
+  {
+   "host": "www.cm-braganca.pt",
+   "facts": 5,
+   "example_endpoint": "https://www.cm-braganca.pt/servicos/investimento/investimento/gabinete-de-apoio-ao-investidor",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.ipcb.pt",
+   "facts": 5,
+   "example_endpoint": "https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "noticias.utad.pt",
+   "facts": 5,
+   "example_endpoint": "https://noticias.utad.pt/blog/2026/05/27/utad-associa-vila-real-innovation-hub-dinamizar-comunidade-profissionais-remotos/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startupportimao.pt",
+   "facts": 4,
+   "example_endpoint": "https://startupportimao.pt/index.php/pt/candidaturas/candidata-te",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-faro.pt",
+   "facts": 4,
+   "example_endpoint": "https://www.cm-faro.pt/pt/69379/incubacao-de-empresas.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-castromarim.pt",
+   "facts": 4,
+   "example_endpoint": "https://cm-castromarim.pt/site/conteudo/apoio-empresas",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.portugalventures.pt",
+   "facts": 4,
+   "example_endpoint": "https://www.portugalventures.pt/en/calls/call-leiria-crescimento/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "executivedigest.sapo.pt",
+   "facts": 4,
+   "example_endpoint": "https://executivedigest.sapo.pt/?p=560308",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://executivedigest.sapo.pt/termos-de-utilizacao/"
+  },
+  {
+   "host": "observador.pt",
+   "facts": 4,
+   "example_endpoint": "https://observador.pt/2026/11/03/startup-portuguesa-granter-recebe-investimento-de-16-milhoes-para-expansao-na-europa/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.gov.pt",
+   "facts": 4,
+   "example_endpoint": "https://www.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "vmtv.sapo.pt",
+   "facts": 4,
+   "example_endpoint": "https://vmtv.sapo.pt/ecossistema-da-startup-braga-presente-na-web-summit-2026/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-castelobranco.pt",
+   "facts": 4,
+   "example_endpoint": "https://www.cm-castelobranco.pt/investcb/investidor/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "pact.pt",
+   "facts": 4,
+   "example_endpoint": "https://pact.pt/epact/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "politecnicoguarda.pt",
+   "facts": 4,
+   "example_endpoint": "https://politecnicoguarda.pt/comunidade/inovacao-empreendedorismo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "pulse2.com",
+   "facts": 4,
+   "example_endpoint": "https://pulse2.com/dojo-ai-6-million-raised-for-agentic-marketing-platform-driving-autonomous-decision-making/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://pulse2.com/terms-of-service/"
+  },
+  {
+   "host": "comercioenoticias.pt",
+   "facts": 4,
+   "example_endpoint": "https://comercioenoticias.pt/startup-santarem-recebeu-alunos-da-escola-profissional-vale-do-tejo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-monchique.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.cm-monchique.pt/pt/menu/2495/incubadora-de-empresas.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "portugal2030.pt",
+   "facts": 3,
+   "example_endpoint": "https://portugal2030.pt/wp-content/uploads/sites/3/2026/05/ALGARVE-2026-3.pdf",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://portugal2030.pt/termos-e-condicoes/"
+  },
+  {
+   "host": "business.turismodeportugal.pt",
+   "facts": 3,
+   "example_endpoint": "https://business.turismodeportugal.pt/pt/inovar/fit/candidaturas-programas-inovacao/Paginas/tourism-advance-candidaturas-23-ago-2026.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://www.turismodeportugal.pt/Paginas/termos-e-condicoes.aspx"
+  },
+  {
+   "host": "www.empreendedor.com",
+   "facts": 3,
+   "example_endpoint": "https://www.empreendedor.com/news/vitor-ferreira-a-startup-leiria-e-um-hub-de-inovacao-em-crescimento",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.eif.org",
+   "facts": 3,
+   "example_endpoint": "https://www.eif.org/press/all/eif-commits-eur30m-to-indico-capital-partners-new-eur125m-vc-fund-to-drive-tech-innovation",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "jornaleconomico.sapo.pt",
+   "facts": 3,
+   "example_endpoint": "https://jornaleconomico.sapo.pt/?p=1269193",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://jornaleconomico.sapo.pt/sobre-nos/o-jornal/termos-e-condicoes/"
+  },
+  {
+   "host": "dealroom.co",
+   "facts": 3,
+   "example_endpoint": "https://dealroom.co/news/148587-angels-way-backs-four-startups-reaching-75-of-its-20-company-target/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "scaleupporto.pt",
+   "facts": 3,
+   "example_endpoint": "https://scaleupporto.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.essential-business.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.essential-business.pt/2026/02/27/80-of-portuguese-investors-in-early-stage-are-optimistic-on-making-investments-in-1h-2026/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-aveiro.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.cm-aveiro.pt/investidores/incubadora-de-empresas",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.nerbe.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.nerbe.pt/cibt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.diariodominho.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.diariodominho.pt/noticias/braga/2025-01-29-inteligencia-artificial-detecta-8-mil-infracoes-de-estacionamento-nas-paragens-de-autocarros-em-braga-679a09272abdf",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.canaln.tv",
+   "facts": 3,
+   "example_endpoint": "https://www.canaln.tv/poliempreende-mobiliza-75-ideias-de-negocio-no-ipb-e-distingue-projeto-de-monitorizacao-infantil/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-coimbra.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.cm-coimbra.pt/areas/investir/investir/apoios-e-incentivos-municipais",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "eportugal.gov.pt",
+   "facts": 3,
+   "example_endpoint": "https://eportugal.gov.pt/en/servicos/criar-uma-empresa-na-hora",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.diarioleiria.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.diarioleiria.pt/2026/07/25/leiria-investe-em-solucoes-tecnologicas-para-reforcar-turismo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.mun-setubal.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.mun-setubal.pt/contactos-servicos-municipais/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "ipstartup.ips.pt",
+   "facts": 3,
+   "example_endpoint": "https://ipstartup.ips.pt/files/Newsletter%20IPStartUp%20-%20Mar%C3%A7o%202026.pdf",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-viseu.pt",
+   "facts": 3,
+   "example_endpoint": "https://www.cm-viseu.pt/pt/areas-servicos/apoio-as-empresas/gabinete-do-investidor/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-lagoa.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.cm-lagoa.pt/investir/gabinete-de-apoio-ao-empreendedor",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-tavira.pt",
+   "facts": 2,
+   "example_endpoint": "https://cm-tavira.pt/site/espaco-empresa-tavira/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-portimao.pt",
+   "facts": 2,
+   "example_endpoint": "https://cm-portimao.pt/portimao-cowork",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "newsroom.sgit.ai",
+   "facts": 2,
+   "example_endpoint": "https://newsroom.sgit.ai/articles/joining-algarve-evolution.html",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "licence: CC BY 4.0 (https://newsroom.sgit.ai/about/imprint.html)"
+  },
+  {
+   "host": "nera.pt",
+   "facts": 2,
+   "example_endpoint": "https://nera.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startuprise.co.uk",
+   "facts": 2,
+   "example_endpoint": "https://startuprise.co.uk/portuguese-based-pfx-biotech-secures-e2-5m-in-seed-round/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.bpfomento.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.bpfomento.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.ani.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.ani.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.winstontaylor.com",
+   "facts": 2,
+   "example_endpoint": "https://www.winstontaylor.com/insights/advising-gradient-labs-on-its-upsized-usd26m-series-a-funding-round",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "qubit.capital",
+   "facts": 2,
+   "example_endpoint": "https://qubit.capital/blog/uk-series-a-weekly-funding-roundup-week-2-june-2026",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "bragatv.pt",
+   "facts": 2,
+   "example_endpoint": "https://bragatv.pt/startup-braga-abre-candidaturas-para-acelerar-projetos-de-saude-e-biotecnologia/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.jornaldeleiria.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.jornaldeleiria.pt/index.php/noticia/centro-2030-abre-concurso-para-apoiar-a-investigacao-e-o-desenvolvimento-empresarial",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-alcoutim.pt",
+   "facts": 2,
+   "example_endpoint": "https://cm-alcoutim.pt/servicos/parque-empresarial",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-beja.pt",
+   "facts": 2,
+   "example_endpoint": "https://cm-beja.pt/pt/2005/espaco-empresa.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "justica.gov.pt",
+   "facts": 2,
+   "example_endpoint": "https://justica.gov.pt/Servicos/Empresa-na-Hora",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://justica.gov.pt/Termos-e-Condicoes"
+  },
+  {
+   "host": "www.coimbra.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.coimbra.pt/2024/11/cm-de-coimbra-e-startup-portugal-assinam-acordo-para-promover-empresas-startup-e-scaleup-no-concelho/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.rtp.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.rtp.pt/noticias/economia/politecnico-da-guarda-lidera-projeto-de-digitalizacao-de-empresas-na-regiao-centro_n1684496",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "portugalstartupnews.com",
+   "facts": 2,
+   "example_endpoint": "https://portugalstartupnews.com/2026/07/03/food-industry-software-startup-brainr-extends-record-seed-round-with-e1-5m-investment/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://portugalstartupnews.com/terms-conditions/"
+  },
+  {
+   "host": "www.brainr.com",
+   "facts": 2,
+   "example_endpoint": "https://www.brainr.com/articles/record-seed-round-ai-food-factories",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "linktoleaders.com",
+   "facts": 2,
+   "example_endpoint": "https://linktoleaders.com/de-leiria-para-o-mundo-mantis-ai-revoluciona-videos-com-inteligencia-artificial/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.biobip.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.biobip.pt/biobip/candidaturas/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "gii.ipportalegre.pt",
+   "facts": 2,
+   "example_endpoint": "https://gii.ipportalegre.pt/projetos-em-curso/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startupgenome.com",
+   "facts": 2,
+   "example_endpoint": "https://startupgenome.com/ecosystems/porto",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-viladobispo.pt",
+   "facts": 2,
+   "example_endpoint": "https://www.cm-viladobispo.pt/uploads/Municipio/Concelho/Projetos_financiados/FichadeOperacao_Digitalizacao_de_Servicossite.pdf?file=moVWhZWuqFXrK4rJG3W7mw",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-vrsa.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.cm-vrsa.pt/pt/menu/956/atividades-economicas.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cm-aljezur.pt",
+   "facts": 1,
+   "example_endpoint": "https://cm-aljezur.pt/pt/menu/105/aljezur-para-investir.aspx",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "tomorrowalgarve.com",
+   "facts": 1,
+   "example_endpoint": "https://tomorrowalgarve.com/?p=12856",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.euacc.ai",
+   "facts": 1,
+   "example_endpoint": "https://www.euacc.ai/knowledge/incubator/algarve-smart-destination-digital-innovation-hub",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.startupcoimbra.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.startupcoimbra.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "eismea.ec.europa.eu",
+   "facts": 1,
+   "example_endpoint": "https://eismea.ec.europa.eu/programmes/european-innovation-ecosystems/women-techeu_en",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "digital-strategy.ec.europa.eu",
+   "facts": 1,
+   "example_endpoint": "https://digital-strategy.ec.europa.eu/en/policies/startup-europe",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.climate-kic.org",
+   "facts": 1,
+   "example_endpoint": "https://www.climate-kic.org/get-involved/open-calls/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "eithealth.eu",
+   "facts": 1,
+   "example_endpoint": "https://eithealth.eu/programmes/catapult/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.eit.europa.eu",
+   "facts": 1,
+   "example_endpoint": "https://www.eit.europa.eu/our-activities/opportunities/financial-support-startups-open-call-2026",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "research-and-innovation.ec.europa.eu",
+   "facts": 1,
+   "example_endpoint": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-and-portugal-team-keep-brightest-tech-talents-home-2026-07-17_en",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.caixacapital.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.caixacapital.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.edp.com",
+   "facts": 1,
+   "example_endpoint": "https://www.edp.com/en/innovation/edp-ventures",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.faber.vc",
+   "facts": 1,
+   "example_endpoint": "https://www.faber.vc/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.vestbee.com",
+   "facts": 1,
+   "example_endpoint": "https://www.vestbee.com/blog/articles/faber-launches-60-m-deeptech-fund",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.musicbusinessworldwide.com",
+   "facts": 1,
+   "example_endpoint": "https://www.musicbusinessworldwide.com/portugal-based-music-collab-platform-musiversal-raises-6m-as-it-prepares-us-entry",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.beta-i.com",
+   "facts": 1,
+   "example_endpoint": "https://www.beta-i.com",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.lispolis.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.lispolis.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.fabricadestartups.com",
+   "facts": 1,
+   "example_endpoint": "https://www.fabricadestartups.com",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.inesctec.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.inesctec.pt/en",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cuatrecasas.com",
+   "facts": 1,
+   "example_endpoint": "https://www.cuatrecasas.com/pt/portugal/comercial-e-societario/art/regulamentacao-do-estatuto-de-startup-e-scaleup",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.iapmei.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.iapmei.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.compete2030.gov.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.compete2030.gov.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "funding.tech.eu",
+   "facts": 1,
+   "example_endpoint": "https://funding.tech.eu/geographies/portugal/2025",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "licence: CC BY 4.0 ()"
+  },
+  {
+   "host": "www.bynd.vc",
+   "facts": 1,
+   "example_endpoint": "https://www.bynd.vc",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.shilling.vc",
+   "facts": 1,
+   "example_endpoint": "https://www.shilling.vc",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.publico.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.publico.pt/2026/06/02/enter/noticia/augusta-labs-capta-50-milhoes-melhorar-empresas-ia-2176871",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.techstars.com",
+   "facts": 1,
+   "example_endpoint": "https://www.techstars.com/accelerators/london",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.joinef.com",
+   "facts": 1,
+   "example_endpoint": "https://www.joinef.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.londonstockexchange.com",
+   "facts": 1,
+   "example_endpoint": "https://www.londonstockexchange.com/en/news/market-celebrations/2026/london-partners-celebrates-record-year-results-their-work-supporting-global-scale-ups",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "startups.co.uk",
+   "facts": 1,
+   "example_endpoint": "https://startups.co.uk/blog/london-business-growth-programme/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.dawncapital.com",
+   "facts": 1,
+   "example_endpoint": "https://www.dawncapital.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.notioncapital.com",
+   "facts": 1,
+   "example_endpoint": "https://www.notioncapital.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.hoxtonventures.com",
+   "facts": 1,
+   "example_endpoint": "https://www.hoxtonventures.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.phoenixcourt.vc",
+   "facts": 1,
+   "example_endpoint": "https://www.phoenixcourt.vc/funds/localglobe/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.episode1.com",
+   "facts": 1,
+   "example_endpoint": "https://www.episode1.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.indexventures.com",
+   "facts": 1,
+   "example_endpoint": "https://www.indexventures.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.connectventures.co",
+   "facts": 1,
+   "example_endpoint": "https://www.connectventures.co/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.firstminute.capital",
+   "facts": 1,
+   "example_endpoint": "https://www.firstminute.capital/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.kcl.ac.uk",
+   "facts": 1,
+   "example_endpoint": "https://www.kcl.ac.uk/entrepreneurship/scale-your-venture/start-ups",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.london.edu",
+   "facts": 1,
+   "example_endpoint": "https://www.london.edu/faculty-and-research/institute-of-entrepreneurship-and-private-capital/opportunities-and-resources/scale/incubator-programme",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.roehampton.ac.uk",
+   "facts": 1,
+   "example_endpoint": "https://www.roehampton.ac.uk/roehampton-startup-accelerator/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "fintech.global",
+   "facts": 1,
+   "example_endpoint": "https://fintech.global/2026/06/10/capsa-ai-raises-18m-series-a-for-private-capital-ai/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "inpi.justica.gov.pt",
+   "facts": 1,
+   "example_endpoint": "https://inpi.justica.gov.pt/Apoio-as-PME/Fundo-PME-Fundo-da-UE-para-protecao-dos-Direitos-de-PI-2026",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://inpi.justica.gov.pt/Avisos-Legais"
+  },
+  {
+   "host": "www.fct.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.fct.pt/financiamento/programas-de-financiamento/computacao/inovia-vouchers-para-inovacao",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "ipressjournal.pt",
+   "facts": 1,
+   "example_endpoint": "https://ipressjournal.pt/universidade-de-coimbra-abre-concurso-nacional-de-ideias-de-negocio/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "oalgarve.pt",
+   "facts": 1,
+   "example_endpoint": "https://oalgarve.pt/alcoutim-investe-456-mil-euros-na-modernizacao-digital-dos-servicos-municipais/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "leigpt.pt",
+   "facts": 1,
+   "example_endpoint": "https://leigpt.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://leigpt.pt/oferta_pt"
+  },
+  {
+   "host": "odigital.sapo.pt",
+   "facts": 1,
+   "example_endpoint": "https://odigital.sapo.pt/projeto-inovador-utiliza-ia-para-apoiar-agricultura-e-conservacao-da-natureza-no-alentejo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "sapo.pt",
+   "facts": 1,
+   "example_endpoint": "https://sapo.pt/artigo/empresa-innowave-com-hub-tecnologico-em-beja-investe-3-8m-em-inteligencia-artificial-69f0d4164dab0b9581206d7d",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "newinbraga.nit.pt",
+   "facts": 1,
+   "example_endpoint": "https://newinbraga.nit.pt/fit/esta-app-bracarense-usa-ia-para-corrigir-os-seus-exercicios-enquanto-treina",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://newinbraga.nit.pt/termos-e-condicoes"
+  },
+  {
+   "host": "indico.fccn.pt",
+   "facts": 1,
+   "example_endpoint": "https://indico.fccn.pt/event/62/contributions/1279/attachments/802/1494/Apresenta%C3%A7%C3%A3o-AI4PA-FabricaIA-10-04-2026.pdf",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cedri.ipb.pt",
+   "facts": 1,
+   "example_endpoint": "https://cedri.ipb.pt/research-innovation/projects/consortium",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.gocoimbra.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.gocoimbra.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "space.ipn.pt",
+   "facts": 1,
+   "example_endpoint": "https://space.ipn.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.feedzai.com",
+   "facts": 1,
+   "example_endpoint": "https://www.feedzai.com/inthenews/feedzai-raises-75m-at-2b-valuation-secures-key-role-in-digital-euro-fraud-prevention/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-evora.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.cm-evora.pt/investidor/infraestruturas/evoratech/apresentacao/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.adral.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.adral.pt",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.uevora.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.uevora.pt/en/innovation/entrepreneurship",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "mun-guarda.pt",
+   "facts": 1,
+   "example_endpoint": "https://mun-guarda.pt/investir/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://www.mun-guarda.pt/termos-e-condicoes-de-utilizacao/"
+  },
+  {
+   "host": "www.cm-leiria.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.cm-leiria.pt/areas-de-atividade/economia/espaco-empresa",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.ipleiria.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.ipleiria.pt/inovar/inovacao/empreendedorismo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.algarveprimeiro.com",
+   "facts": 1,
+   "example_endpoint": "https://www.algarveprimeiro.com/d/algar-e-nilgai-recebem-premio-com-projeto-inovador-na-gestao-de-residuos/60124-85",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.cm-portalegre.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.cm-portalegre.pt/investidores/espaco-empresa/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "economia.cm-porto.pt",
+   "facts": 1,
+   "example_endpoint": "https://economia.cm-porto.pt/empreendedorismo/empreendedorismo",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "portoinnovationhub.pt",
+   "facts": 1,
+   "example_endpoint": "https://portoinnovationhub.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "portodigital.pt",
+   "facts": 1,
+   "example_endpoint": "https://portodigital.pt/en",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "registo.justica.gov.pt",
+   "facts": 1,
+   "example_endpoint": "https://registo.justica.gov.pt/Empresas/Empresa-na-Hora",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "osetubalense.com",
+   "facts": 1,
+   "example_endpoint": "https://osetubalense.com/local/setubal/portos-de-setubal-e-lisboa-investem-750-mil-euros-em-datacenter-e-inteligencia-artificial/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "web-4ui.pages.dev",
+   "facts": 1,
+   "example_endpoint": "https://web-4ui.pages.dev/en/membership-startups",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "echoboomer.pt",
+   "facts": 1,
+   "example_endpoint": "https://echoboomer.pt/abriu-nova-fabrica-equipamentos-data-centers-viana-do-castelo/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.altominho.tv",
+   "facts": 1,
+   "example_endpoint": "https://www.altominho.tv/site/2026/07/24/plataforma-de-inteligencia-artificial-vence-fase-regional-do-poliempreende/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "cordis.europa.eu",
+   "facts": 1,
+   "example_endpoint": "https://cordis.europa.eu/project/id/815852",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "licence: Creative Commons Attribution 4.0 International (CC BY 4.0), under Commission Decision 2011/833/EU on the reuse (https://cordis.europa.eu/about/legal)"
+  },
+  {
+   "host": "www.aman-alliance.org",
+   "facts": 1,
+   "example_endpoint": "https://www.aman-alliance.org/Home/ContentDetail/103391",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "inov.utad.pt",
+   "facts": 1,
+   "example_endpoint": "https://inov.utad.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "starinstitute.pt",
+   "facts": 1,
+   "example_endpoint": "https://starinstitute.pt/noticias/inauguracao-do-centro-de-tecnologia-e-inovacao-do-star-institute/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://starinstitute.pt/termos-e-condicoes/"
+  },
+  {
+   "host": "vitebtestbed.com",
+   "facts": 1,
+   "example_endpoint": "https://vitebtestbed.com/en/communication/communication-list/national-test-beds-network",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "univiseu.pt",
+   "facts": 1,
+   "example_endpoint": "https://univiseu.pt/conhecidos-os-projetos-distinguidos-na-3-a-edicao-do-concurso-de-projetos-de-ignicao-e-provas-de-conceito/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "airv.pt",
+   "facts": 1,
+   "example_endpoint": "https://airv.pt/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "ipv.pt",
+   "facts": 1,
+   "example_endpoint": "https://ipv.pt/wp-content/uploads/2025/10/Ficha-projeto-RisKMap.pdf",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.diarioviseu.pt",
+   "facts": 1,
+   "example_endpoint": "https://www.diarioviseu.pt/2026/09/08/capacidade-de-imagiologia-reforcada-na-uls-viseu-dao-lafoes/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "chatplace.io",
+   "facts": 1,
+   "example_endpoint": "https://chatplace.io/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page: https://chatplace.io/terms-of-service"
+  },
+  {
+   "host": "www.dig-in.io",
+   "facts": 1,
+   "example_endpoint": "https://www.dig-in.io/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "itrtechgroup.com",
+   "facts": 1,
+   "example_endpoint": "https://itrtechgroup.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "sheerme.com",
+   "facts": 1,
+   "example_endpoint": "https://sheerme.com/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  },
+  {
+   "host": "www.vtex.com",
+   "facts": 1,
+   "example_endpoint": "https://www.vtex.com/en-us/solutions/business-needs/",
+   "why": "a public page read by curl (HTTP GET, no login, no form, no cookie wall) as the source of the facts that name it",
+   "terms_as_we_recorded": "terms page not found yet (our 18 Nov scan)"
+  }
+ ]
+}

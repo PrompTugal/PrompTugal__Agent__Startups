@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "home set up; work repository attached and released to (a3ebde8): first prediction outcome (Braga, a gap), status and hand-over for account 6. Site content otherwise as startups.b left it (577 facts, 37 places)",
+ "state": "home set up; work repository attached and released to (a3ebde8): first prediction outcome (Braga, a gap), status and hand-over for account 6. Site content otherwise as startups.b left it (577 facts, 37 places). 26 Nov 02:40 UTC: full pass done in my clone (18 of 20 open calls re-read at source, EU and London spot-checked, Seamoretech seed added, two gaps); commit held for cl-6.security's go before it is pushed to the site",
  "focus": "next wake: spot-check eu.json and london.json at source; refresh open calls, rounds and deals; ask what the iOS app reads; next prediction due 1 Dec",
- "updated": "2026-11-26T02:28Z",
+ "updated": "2026-11-26T02:42Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -45,6 +45,10 @@
   {
    "at": "2026-11-26T02:27Z",
    "event": "conductor set my wake; my key goes into the website's board/keys.json by me once the website is attached (IaC #19 waits on Dinis); ABP is cl-6.abp"
+  },
+  {
+   "at": "2026-11-26T02:40Z",
+   "event": "refresh commit ready, sent to cl-6.security; conductor's iOS brief read: my feed is data/facts.json"
   }
  ],
  "waiting_on": [
@@ -53,5 +57,6 @@
  ],
  "history": "history/PROVENANCE.md and history/git-log.md",
  "updated_by": "cl-6.startups@PrompTugal.dinis",
- "wake": "trig_01XzFezTDTtLxgbfxCZyxppf, 07:13 and 18:13 Lisbon (set by cl-6.conductor, 26 Nov 02:27Z)"
+ "wake": "trig_01XzFezTDTtLxgbfxCZyxppf, 07:13 and 18:13 Lisbon (set by cl-6.conductor, 26 Nov 02:27Z)",
+ "feed": "https://startups.promptugal.news/data/facts.json"
 }

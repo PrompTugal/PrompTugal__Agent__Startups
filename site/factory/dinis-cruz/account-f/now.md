@@ -15,4 +15,4 @@ When attached, in this order:
 3. Prediction outcomes: calls whose closing date fell from 23 Nov (`data/predictions/predictions.jsonl`), read again at source.
 4. Spot-check `eu.json` and `london.json` at source (the 21 Nov doubts: a summarising fetch was used; Women TechEU 2 cut-off; two budgets on the Pre-Accelerator page).
 5. Refresh open calls, new rounds and investor deals; rebuild; release.
-6. Feed the iOS app: ask the conductor which of `data/facts.json`, `/preview.json` or a new feed the app reads.
+6. The iOS app's feed (conductor's brief, 26 Nov: board/briefs/2026-11-26-ios-app.md in PrompTugal__Agent__Conductor): `https://startups.promptugal.news/data/facts.json` (keys site, version, licence, places, entries; every entry has read_on, source, licence and provenance), `/version.json` and `/preview.json`. Keep them current and their shape stable; announce any shape change to the conductor first.

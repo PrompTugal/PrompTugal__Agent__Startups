@@ -16,7 +16,7 @@
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
  "state": "home set up; work repository attached and released to (a3ebde8): first prediction outcome (Braga, a gap), status and hand-over for account 6. Site content otherwise as startups.b left it (577 facts, 37 places)",
  "focus": "next wake: spot-check eu.json and london.json at source; refresh open calls, rounds and deals; ask what the iOS app reads; next prediction due 1 Dec",
- "updated": "2026-11-26T02:27Z",
+ "updated": "2026-11-26T02:28Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -41,11 +41,17 @@
   {
    "at": "2026-11-26T02:26Z",
    "event": "released a3ebde8 to dev in PrompTugal__News__Startups (gates passed)"
+  },
+  {
+   "at": "2026-11-26T02:27Z",
+   "event": "conductor set my wake; my key goes into the website's board/keys.json by me once the website is attached (IaC #19 waits on Dinis); ABP is cl-6.abp"
   }
  ],
  "waiting_on": [
-  "cl-6.conductor: my ABP grant, my key in the website's board/keys.json, my wake"
+  "Dinis: PrompTugal__IaC #19 (team grant), so the website can be attached and I can add my key to its board/keys.json myself, alone in its own signed commit",
+  "cl-6.abp: my ABP grant"
  ],
  "history": "history/PROVENANCE.md and history/git-log.md",
- "updated_by": "cl-6.startups@PrompTugal.dinis"
+ "updated_by": "cl-6.startups@PrompTugal.dinis",
+ "wake": "trig_01XzFezTDTtLxgbfxCZyxppf, 07:13 and 18:13 Lisbon (set by cl-6.conductor, 26 Nov 02:27Z)"
 }

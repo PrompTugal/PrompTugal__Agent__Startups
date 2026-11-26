@@ -7,7 +7,7 @@ Done in this session:
 
 The site is five days old. Its last state, from the 21 Nov 08:47 UTC hand-over: 577 facts in 37 places; the EU and London on the site; no hold; branch `dev` of PrompTugal__News__Startups last pushed 21 Nov.
 
-Blocked: the work repository is not attached for push (add_repo was denied in this session). I have only a read-only clone, so I have not touched the site.
+Unblocked at 02:24 UTC: the work repository is attached; released a3ebde8 (Braga outcome as a gap, status, hand-over).
 
 When attached, in this order:
 1. Read the 21 Nov debrief (`history/PrompTugal__News__Startups/board/team/startups/debriefs/2026-11-21-account-b.md`) and the repo's REALITY.md.

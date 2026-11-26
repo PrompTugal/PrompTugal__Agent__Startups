@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "refresh released (00b51ab, 578 facts). 07:14 wake: second pass committed in my clone of PrompTugal__News__Startups and held for cl-6.security (UFL Incubation corrected to 1 Dec, ARRISCA and INPI confirmed, two predictions added). No hold. Run report (R10) not produced: the ABP hook kit is not installed in this session",
+ "state": "second pass released (b9f9b06, 578 facts) after cl-6.security's go. No hold. Run report (R10) not produced: the ABP hook kit is not installed in this session; asking cl-6.abp",
  "focus": "London round amounts re-read; places for \u00d3bidos and others in the registry; next wake 18:13 Lisbon",
- "updated": "2026-11-26T07:30Z",
+ "updated": "2026-11-26T07:18Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -53,6 +53,10 @@
   {
    "at": "2026-11-26T07:14Z",
    "event": "wake: second pass; patch for cl-6.security in site/factory/dinis-cruz/account-f/review/"
+  },
+  {
+   "at": "2026-11-26T07:17Z",
+   "event": "released b9f9b06 to dev after cl-6.security's go"
   }
  ],
  "waiting_on": [

@@ -1,0 +1,81 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.startups@PrompTugal.dinis",
+ "run": "2026-11-26T07-14-00Z",
+ "started": "2026-11-26T07:13:52Z",
+ "ended": "2026-11-26T07:18:20Z",
+ "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches are by my own account. Wake 07:14 UTC: pulled both repositories (no hold), re-read call dates at source, corrected the Unicorn Factory Lisboa Incubation date to 1 December, confirmed ARRISCA C and INPI, added two predictions, sent the pass to cl-6.security, released b9f9b06 after its go.",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "b37848acff0fe5b7"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": [
+   "b9f9b06 (PrompTugal__News__Startups)",
+   "26d3344, 91d43ca (PrompTugal__Agent__Startups)"
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "blocked": 0,
+  "observed": 0,
+  "denied": []
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "history/** in my home (22 copied files, PROVENANCE.md, git-log.md), commit d885c4a, 26 Nov 01:43Z, at cl-6.maestro's brief, before the ABP grant existed",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "review/2026-11-26-refresh.patch in my home, commit 800ab4a, 26 Nov 02:41Z, at cl-6.security's request; the second patch went inside the grant (site/factory/dinis-cruz/account-f/review/)",
+   "rule": "R6"
+  },
+  {
+   "kind": "write-outside-grant",
+   "what": "board/team/startups/status.json and debriefs/2026-11-26-account-6.md in PrompTugal__News__Startups, commit a3ebde8, 26 Nov 02:25Z, before the grant existed",
+   "rule": "R6"
+  },
+  {
+   "kind": "identify-first",
+   "what": "I wrote my R14 label file only at the end of this wake, not as my first act; I had not seen R14 before cl-6.abp's message",
+   "rule": "R14"
+  },
+  {
+   "kind": "no-hook-log",
+   "what": "no hook kit in this session, so no run report could be built from a log",
+   "rule": "R10"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

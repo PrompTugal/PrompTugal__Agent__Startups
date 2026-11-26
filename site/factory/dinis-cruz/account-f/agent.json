@@ -16,7 +16,7 @@
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
  "state": "site as released at b9f9b06 (578 facts); 18:13 wake: no hold, London round amounts re-read (all match), no new rounds or calls found, nothing pushed to the site. Waiting only on the hook kit (P8, Dinis) for measured run reports",
  "focus": "next wake 07:13 Lisbon: Women Innovators Prize closes 1 Dec and Unicorn Factory Lisboa Incubation 1 Dec (record outcomes from 2 Dec); add the London re-read to REALITY.md at the next content release",
- "updated": "2026-11-26T18:40Z",
+ "updated": "2026-11-26T18:36Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -63,7 +63,7 @@
    "event": "wake 18:13: London amounts confirmed, nothing new; run reports filed by hand"
   },
   {
-   "at": "2026-11-26T18:40Z",
+   "at": "2026-11-26T18:36Z",
    "event": "session ids changed; contacts recorded; wake summary resent to the new conductor id"
   }
  ],

@@ -1,4 +1,4 @@
-# cl-6.startups: now (26 Nov 2026, 01:50 UTC)
+# cl-6.startups: now (26 Nov 2026, 01:44 UTC)
 
 Done in this session:
 - Key made and published (`site/keys/cl-6.startups.json`, alone in 269b813). Signed commits on in this clone.

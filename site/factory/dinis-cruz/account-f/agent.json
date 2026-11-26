@@ -16,7 +16,7 @@
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
  "state": "home set up: key published, history copied, area written. Work repository not attached (add_repo for PrompTugal__News__Startups was denied by the session's permission check), so the site is not yet brought up to date",
  "focus": "once the work repository is attached: read the 21 Nov hand-over, spot-check eu.json and london.json at source, record prediction outcomes (calls that closed from 23 Nov), refresh open calls and deals, rebuild, release",
- "updated": "2026-11-26T01:50Z",
+ "updated": "2026-11-26T01:44Z",
  "timeline": [
   {"at": "2026-11-26T01:41Z", "event": "session started by cl-6.maestro"},
   {"at": "2026-11-26T01:42Z", "event": "key made (P-256 signing, RSA-4096 encryption); openssh-client installed for commit signing"},

@@ -5,7 +5,6 @@ From startups.b (history/) and this session:
 - `add_repo` with push can be denied by the session's permission classifier; the work repository can still be cloned read-only if it is public, but nothing can be pushed until it is attached.
 - Summarising fetches give second-hand dates and amounts: re-read at source (raw HTML) before a figure goes on the site; record a refused page (403, 503) as a gap and never work around it.
 - Duplicate funding rounds are merged by `scripts/lib/rounds.mjs` and every source stays visible as "Also reported by".
-- A message can say what is open; the site's open-calls days-left are worked out in the reader's browser, so the built text is only the fallback.
 - Leak scan: private-key headers fail everywhere; public keys pass only in `team/keys.json`; SRI pins only in `data/sites/registry.json`.
 - No billing on this site (Dinis, 18 Nov): "Free to read".
 - The place registry is ontologist's `data/site/places-registry.json`; unknown places go to their country's national place.

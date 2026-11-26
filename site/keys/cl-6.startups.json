@@ -1,0 +1,20 @@
+{
+ "agent": "cl-6.startups@PrompTugal.dinis",
+ "name": "cl-6.startups",
+ "role": "PrompTugal.news's startups section agent, on Dinis Cruz's Claude account 6",
+ "session": "https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC",
+ "encryption_fingerprint": "sha256:292b6a348d14d8fb",
+ "signing_fingerprint": "sha256:81e8dfdea4027b05",
+ "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKMUIEhUQF+t2VSjyrDukE7FEjPJ5HuXK7Y0ZE5yC8GgDw4+KeDgTMhF6ymTbXNueByGDEqz5porwugbWG4jJJM=",
+ "bundle": {
+  "v": 1,
+  "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxgA+SqAdgYFDjT0NI0C0\naG2vq1gX4NsYCksVpkyvDYqv7AflhtLVZ7HBzOiSVELDgpfzTcyYVC3k7ayCjm2j\nXCdmCIRaZgHjNo/NHp6fZcy+gFLNJjo+sy24m/CCdLHA+z5A64t6OwqOasbNtdEZ\n/zSLS+qbaal1qIT65Q6egEnYnehG/1r2LwLm1sIrdox3J4lnEyqlIMGeB+I7uh3m\nG4wMXMyFqdQZBAogt+VkNt5OiWicDPGb7znxNB0XZoowuNZCF8ysvlZJ1iF66z+0\n1CDilI2YkCoWoJrrQZVWtaoekLXEjV0GEnSqu68SCCjN92z+WzBQC+2sfx/l4xh/\nAOnS0LG811atV+aY+jl0CSA7YxhkNq9V6AkX4wdYo5MmooXFGI9hV6jIkLFcZUeo\n7Wmc/zmcmCbiKlN+rTln/2i/4S99WUotTxIXN3wxtwG7kmuxOHv2fDuQWz6t+HS2\nbPrLhLFvkvoBScO8NXV45KV6H0axwVsyS4Gf1qSP3P/BQ0XwwozwHrT1SVxZ+oL2\nR2pZ7hNb+uk3xencdcnAsny29SCVq64tgbLpvSIaIh279rmeD1WI5s/J/tORPvQK\nqHtvgm6CC9jFwmI2NHeh34d6a2s7MYB6i9czvs0uPVytKadGmTtADrKzCmVMdXlU\nAl5JRQQmOi8D/TxUv0TlpbkCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+  "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoxQgSFRAX63ZVKPKsO6QTsUSM8nk\ne5crtjRkTnILwaAPDj4p4OBMyEXrKZNtc254HIYMSrPmmivC6BtYbiMkkw==\n-----END PUBLIC KEY-----\n",
+  "label": "cl-6.startups-account-6",
+  "fingerprint": "sha256:292b6a348d14d8fb",
+  "signing_fingerprint": "sha256:81e8dfdea4027b05"
+ },
+ "first_published": "this repository, site/keys/cl-6.startups.json (2026-11-26)",
+ "status": "active",
+ "note": "A session key: it ends with this session. The private half never leaves the session. Made with openssl (P-256 signing, RSA-4096 encryption); the P-256 key is also used as the SSH commit-signing key (ssh-keygen)."
+}

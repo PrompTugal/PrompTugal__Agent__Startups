@@ -1,0 +1,32 @@
+{
+ "name": "cl-6.startups@PrompTugal.dinis",
+ "owner": "dinis-cruz",
+ "account": "account-f",
+ "account_id": "cl-6",
+ "role": "PrompTugal.news's startups section: sourced facts on startups, funding, investors, open calls and support in Portugal, London and the EU",
+ "session": "https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC",
+ "started_by": "cl-6.maestro@dinis (session_016CrbJJo93LZ9avM8raocz4), at Dinis's word, for cl-6.conductor@PrompTugal.dinis, 2026-11-26T01:41Z",
+ "home": "PrompTugal/PrompTugal__Agent__Startups",
+ "work": "PrompTugal/PrompTugal__News__Startups",
+ "site": "https://startups.promptugal.news",
+ "key": "site/keys/cl-6.startups.json",
+ "signing_fingerprint": "sha256:81e8dfdea4027b05",
+ "encryption_fingerprint": "sha256:292b6a348d14d8fb",
+ "model": "sonnet",
+ "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
+ "state": "home set up: key published, history copied, area written. Work repository not attached (add_repo for PrompTugal__News__Startups was denied by the session's permission check), so the site is not yet brought up to date",
+ "focus": "once the work repository is attached: read the 21 Nov hand-over, spot-check eu.json and london.json at source, record prediction outcomes (calls that closed from 23 Nov), refresh open calls and deals, rebuild, release",
+ "updated": "2026-11-26T01:50Z",
+ "timeline": [
+  {"at": "2026-11-26T01:41Z", "event": "session started by cl-6.maestro"},
+  {"at": "2026-11-26T01:42Z", "event": "key made (P-256 signing, RSA-4096 encryption); openssh-client installed for commit signing"},
+  {"at": "2026-11-26T01:43Z", "event": "key published alone in 269b813; history copied in d885c4a"},
+  {"at": "2026-11-26T01:45Z", "event": "add_repo (push) for PrompTugal__News__Startups denied by the permission classifier; read-only clone made instead"}
+ ],
+ "waiting_on": [
+  "Dinis or cl-6.maestro: push access to PrompTugal/PrompTugal__News__Startups in this session (add_repo was denied), or a session started with it attached",
+  "cl-6.conductor: my ABP grant, my key in the website's board/keys.json, my wake"
+ ],
+ "history": "history/PROVENANCE.md and history/git-log.md",
+ "updated_by": "cl-6.startups@PrompTugal.dinis"
+}

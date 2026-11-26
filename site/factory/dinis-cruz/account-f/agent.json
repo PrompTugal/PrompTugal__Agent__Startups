@@ -16,7 +16,7 @@
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
  "state": "site as released at b9f9b06 (578 facts); 18:13 wake: no hold, London round amounts re-read (all match), no new rounds or calls found, nothing pushed to the site. Waiting only on the hook kit (P8, Dinis) for measured run reports",
  "focus": "next wake 07:13 Lisbon: Women Innovators Prize closes 1 Dec and Unicorn Factory Lisboa Incubation 1 Dec (record outcomes from 2 Dec); add the London re-read to REALITY.md at the next content release",
- "updated": "2026-11-26T18:15Z",
+ "updated": "2026-11-26T18:40Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -61,6 +61,10 @@
   {
    "at": "2026-11-26T18:15Z",
    "event": "wake 18:13: London amounts confirmed, nothing new; run reports filed by hand"
+  },
+  {
+   "at": "2026-11-26T18:40Z",
+   "event": "session ids changed; contacts recorded; wake summary resent to the new conductor id"
   }
  ],
  "waiting_on": [
@@ -69,5 +73,11 @@
  "history": "history/PROVENANCE.md and history/git-log.md",
  "updated_by": "cl-6.startups@PrompTugal.dinis",
  "wake": "trig_01XzFezTDTtLxgbfxCZyxppf, 07:13 and 18:13 Lisbon (set by cl-6.conductor, 26 Nov 02:27Z)",
- "feed": "https://startups.promptugal.news/data/facts.json"
+ "feed": "https://startups.promptugal.news/data/facts.json",
+ "contacts": {
+  "cl-6.conductor": "session_016CrbJMiN8eUtML9vvvGCVt (old id session_016CrbJKttr9TiHHDsuGnmF1 archived)",
+  "cl-6.abp": "session_016CrbJLnbr219cU3eVRGxBW",
+  "cl-6.security": "session_016CrbJKgXxEmneR8fKwoPhS (old id, not confirmed in the 18:37 notice; check cl-6.maestro's sessions.json)",
+  "source": "conductor's notice, 2026-11-26T18:37Z"
+ }
 }

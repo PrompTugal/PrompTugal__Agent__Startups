@@ -1,0 +1,74 @@
+From 00b51ab46c717fa812b5f0f28800a3f53660b16d Mon Sep 17 00:00:00 2001
+From: "cl-6.startups@PrompTugal.dinis" <cl-6.startups@PrompTugal.dinis>
+Date: Thu, 26 Nov 2026 02:38:50 +0000
+Subject: [PATCH] cl-6.startups@PrompTugal.dinis: 26 Nov refresh: calls re-read
+ at source, Seamoretech seed, two gaps
+
+Agent: cl-6.startups@PrompTugal.dinis
+Issue: WS-177
+For: Dinis
+Claude-Session: https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC
+---
+ REALITY.md                            |  1 +
+ data/research/refresh-2026-11-26.json | 40 +++++++++++++++++++++++++++
+ 2 files changed, 41 insertions(+)
+ create mode 100644 data/research/refresh-2026-11-26.json
+
+diff --git a/REALITY.md b/REALITY.md
+index 76d6208..58c5544 100644
+--- a/REALITY.md
++++ b/REALITY.md
+@@ -44,3 +44,4 @@
+ - **London, 20 November 2026 (08:43 wake):** `data/research/london.json` (country GB, 18 entries: 4 support, 6 rounds, 6 companies, 2 investors; read 20 November 2026 by startups.b.research@PrompTugal.dinis through a summarising fetch, so details are second-hand; 11 gaps, including 10 pages that refused or were missing). London has its own place page, `/places/london/`, and the map on `/places/` shows it as a small inset beside Portugal. The build counts 547 facts in 36 places. No EU data yet, so no Brussels inset.
+ - **Evening, 20 November 2026 (19:43 wake):** London has 28 facts (`data/research/london.json`); `data/research/investor-deals.json` has 3 more Portuguese deals. The build counts 560 facts in 36 places.
+ - **The EU, 21 November 2026 (08:43 wake):** `data/research/eu.json` (17 facts about EU programmes and money open to startups in Portugal, place european-union). `/places/` groups London and the EU under "Beyond Portugal", and the map shows London and Brussels (the EU) as small insets. The build counts 577 facts in 37 places.
++- **Account 6 refresh, 26 November 2026 (cl-6.startups@PrompTugal.dinis, first pass):** 18 of the 20 calls in the open group on `/calls/` had their closing dates re-read at their source pages on 26 November and all 18 matched (Women Innovators Prize 1 Dec; Mission Carbon 6 Dec; Santander Explorer 10 Dec; Global ScalingUp 13 Dec; Centro2030 incubators 28 Dec; ANI SIID 29 Dec; MPr-2026-07 29 Dec; InovIA vouchers 31 Dec; Rising Up in Spain 31 Dec; From Start to Table 10 Jan; ALGARVE-2026-3, -5 and -6 15 Jan; EIT Catalyse NEB 15 Jan; Amarsul|Valorsul 25 Jan; ALT2030-2026-57 26 Feb; Techstars London 8 Mar; EIC Pre-Accelerator 18 Nov 2027; INPI/EUIPO SME Fund 4 Dec was not re-read). Not re-confirmed, both recorded as gaps in `data/research/refresh-2026-11-26.json`: Unicorn Factory Lisboa Incubation Programme (3 Dec: the page no longer lists that date, then a bot-check page) and ARRISCA C 2026 (18 Dec: not stated on the page read, then a bot-check page). `eu.json` figures were spot-checked at source (EIC Accelerator, Pre-Accelerator, Transition, Women TechEU 2, EIC Fund): they match, including the two pages' disagreement on the Women TechEU 2 final cut-off. `london.json`: all 28 source pages answered 200 and name the entry; Techstars London's 8 March 2027 deadline matched. One new fact: Seamoretech's EUR 1.1 million seed first closing (2 November 2026, Porto): 578 facts. Prediction outcome: Braga Global Health Accelerator (due 23 November) recorded as a gap. Not done: the INPI call and the London rounds' amounts were not re-read; the iOS app's feed is not yet agreed.
+diff --git a/data/research/refresh-2026-11-26.json b/data/research/refresh-2026-11-26.json
+new file mode 100644
+index 0000000..ee96dbc
+--- /dev/null
++++ b/data/research/refresh-2026-11-26.json
+@@ -0,0 +1,40 @@
++{
++ "by": "cl-6.startups@PrompTugal.dinis",
++ "country": "PT",
++ "read_on": "2026-11-26",
++ "area": "refresh-2026-11-26",
++ "notes": "First pass of the cl-6 session, 26 November 2026. The seed round was found with WebSearch and read in the page's raw HTML (curl); the amount, the date and the three investor names match the article. The open calls' dates were re-read at source the same day and are listed in REALITY.md; two could not be re-confirmed (see gaps).",
++ "entries": [
++  {
++   "name": "Seamoretech first seed closing",
++   "kind": "round",
++   "section": "funding",
++   "place": "porto",
++   "company": "Seamoretech",
++   "investors": [
++    "Rypples",
++    "7Seas Capital",
++    "Crédito Agrícola"
++   ],
++   "amount": "EUR 1.1 million",
++   "date": "2026-11-02",
++   "what": "Seamoretech, a Porto-based CleanTech company that turns salty waste water from desalination plants into fresh water and minerals, raised EUR 1.1 million in the first closing of its seed round, from Rypples, 7Seas Capital and Crédito Agrícola. The article says the money supports technology development, market expansion and the recovery of critical raw materials.",
++   "url": "https://startuprise.co.uk/seamoretech-raises-e1-1mn/",
++   "source_url": "https://startuprise.co.uk/seamoretech-raises-e1-1mn/",
++   "read_on": "2026-11-26",
++   "how_read": "curl of the page, text read from the raw HTML by cl-6.startups"
++  }
++ ],
++ "gaps": [
++  {
++   "url": "https://unicornfactorylisboa.com/active-programs/",
++   "what": "Unicorn Factory Lisboa: Incubation Programme, closing date 3 December 2026 (shown on /calls/ from the 18 November reading)",
++   "why": "On the first reading of 26 November the page listed other programmes with their dates but not this one's 3 December date; a second reading was served a bot-check page (a reload after 5 seconds), which we do not work around. The date is not re-confirmed."
++  },
++  {
++   "url": "https://ipressjournal.pt/universidade-de-coimbra-abre-concurso-nacional-de-ideias-de-negocio/",
++   "what": "ARRISCA C 2026, closing date 18 December 2026",
++   "why": "The article page read on 26 November does not state the date in its text, and a later reading was served a bot-check page. The date is not re-confirmed."
++  }
++ ]
++}
+-- 
+2.43.0
+

@@ -1,0 +1,91 @@
+From b9f9b066fdf79ecfca8cfa0e63d3f81d68f0ffbd Mon Sep 17 00:00:00 2001
+From: "cl-6.startups@PrompTugal.dinis" <cl-6.startups@PrompTugal.dinis>
+Date: Thu, 26 Nov 2026 07:15:14 +0000
+Subject: [PATCH] cl-6.startups@PrompTugal.dinis: second pass: UFL Incubation
+ closes 1 Dec (corrected), ARRISCA and INPI confirmed, predictions for two
+ open calls
+
+Agent: cl-6.startups@PrompTugal.dinis
+Issue: WS-177
+For: Dinis
+Claude-Session: https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC
+---
+ REALITY.md                               |  1 +
+ data/predictions/predictions.jsonl       |  3 +++
+ data/research/lisbon-porto-national.json |  6 +++---
+ data/research/refresh-2026-11-26.json    | 15 ++-------------
+ 4 files changed, 9 insertions(+), 16 deletions(-)
+
+diff --git a/REALITY.md b/REALITY.md
+index 58c5544..5968875 100644
+--- a/REALITY.md
++++ b/REALITY.md
+@@ -45,3 +45,4 @@
+ - **Evening, 20 November 2026 (19:43 wake):** London has 28 facts (`data/research/london.json`); `data/research/investor-deals.json` has 3 more Portuguese deals. The build counts 560 facts in 36 places.
+ - **The EU, 21 November 2026 (08:43 wake):** `data/research/eu.json` (17 facts about EU programmes and money open to startups in Portugal, place european-union). `/places/` groups London and the EU under "Beyond Portugal", and the map shows London and Brussels (the EU) as small insets. The build counts 577 facts in 37 places.
+ - **Account 6 refresh, 26 November 2026 (cl-6.startups@PrompTugal.dinis, first pass):** 18 of the 20 calls in the open group on `/calls/` had their closing dates re-read at their source pages on 26 November and all 18 matched (Women Innovators Prize 1 Dec; Mission Carbon 6 Dec; Santander Explorer 10 Dec; Global ScalingUp 13 Dec; Centro2030 incubators 28 Dec; ANI SIID 29 Dec; MPr-2026-07 29 Dec; InovIA vouchers 31 Dec; Rising Up in Spain 31 Dec; From Start to Table 10 Jan; ALGARVE-2026-3, -5 and -6 15 Jan; EIT Catalyse NEB 15 Jan; Amarsul|Valorsul 25 Jan; ALT2030-2026-57 26 Feb; Techstars London 8 Mar; EIC Pre-Accelerator 18 Nov 2027; INPI/EUIPO SME Fund 4 Dec was not re-read). Not re-confirmed, both recorded as gaps in `data/research/refresh-2026-11-26.json`: Unicorn Factory Lisboa Incubation Programme (3 Dec: the page no longer lists that date, then a bot-check page) and ARRISCA C 2026 (18 Dec: not stated on the page read, then a bot-check page). `eu.json` figures were spot-checked at source (EIC Accelerator, Pre-Accelerator, Transition, Women TechEU 2, EIC Fund): they match, including the two pages' disagreement on the Women TechEU 2 final cut-off. `london.json`: all 28 source pages answered 200 and name the entry; Techstars London's 8 March 2027 deadline matched. One new fact: Seamoretech's EUR 1.1 million seed first closing (2 November 2026, Porto): 578 facts. Prediction outcome: Braga Global Health Accelerator (due 23 November) recorded as a gap. Not done: the INPI call and the London rounds' amounts were not re-read; the iOS app's feed is not yet agreed.
++- **Second pass, 26 November 2026, 07:14 UTC (cl-6.startups wake):** re-read at source: ARRISCA C 2026 (closes 23:59 on 18 December: confirmed), INPI/EUIPO SME Fund (4 December: confirmed). Corrected: Unicorn Factory Lisboa Incubation Programme closes on 1 December 2026 (its programme page and active programs page), not 3 December; the prediction has a correcting line. No new fact: the one round found by a second search, Hope Care's EUR 6 million Series A (8 September 2026, ECO), was already on the site (578 facts). Predictions: lines added for the EIT Catalyse NEB call and the EIC Pre-Accelerator, which were open but had none. Still not re-read: London round amounts.
+diff --git a/data/predictions/predictions.jsonl b/data/predictions/predictions.jsonl
+index 1480c15..53cf5fc 100644
+--- a/data/predictions/predictions.jsonl
++++ b/data/predictions/predictions.jsonl
+@@ -18,3 +18,6 @@
+ {"type":"prediction","id":"call.portugal-alt2030-2026-57-siid-empreendedorismo-qualificado-new-companies-alentej.2027-02-26","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#portugal-alt2030-2026-57-siid-empreendedorismo-qualificado-new-companies-alentej","shown_at":"2026-11-19T07:48Z","said_by":"portugal2030.pt","source":"https://portugal2030.pt/2026/10/30/apoio-a-projetos-que-visem-a-criacao-de-novas-empresas-e-novos-negocios-no-alentejo/","licence":{"name":"the source's terms","url":"https://portugal2030.pt/termos-e-condicoes/"},"kind":"expected-date","subject":"ALT2030-2026-57: SIID Empreendedorismo Qualificado, new companies (Alentejo), closing date","due":"2027-02-26","said":"closes Friday 26 February 2027, as the source states it (read 2026-11-18)"}
+ {"type":"prediction","id":"call.london-techstars-london-accelerator.2027-03-08","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#london-techstars-london-accelerator","shown_at":"2026-11-20T19:44Z","said_by":"www.techstars.com","source":"https://www.techstars.com/accelerators/london","licence":{"name":"the source's terms","url":"https://www.techstars.com/"},"kind":"expected-date","subject":"Techstars London Accelerator, closing date","due":"2027-03-08","said":"closes Monday 8 March 2027, as the source states it (read 2026-11-20)"}
+ {"type": "outcome", "of": "call.braga-global-health-accelerator-2026-2027-startup-braga.2026-11-23", "checked_at": "2026-11-26T02:25Z", "result": "gap", "gap": "The date has passed, but no page read on 26 November 2026 says what happened at the close: the InvestBraga article (3 November) still says applications are open until 23 November, and Startup Braga's own pages name the programme without a date."}
++{"type":"prediction","id":"call.lisboa-unicorn-factory-lisboa-incubation-programme.2026-12-01","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#lisboa-unicorn-factory-lisboa-incubation-programme","shown_at":"2026-11-26T07:14Z","said_by":"Unicorn Factory Lisboa","source":"https://unicornfactorylisboa.com/active-programs/","licence":{"name":"the source's terms","url":"https://unicornfactorylisboa.com/terms-and-conditions/"},"kind":"expected-date","subject":"Unicorn Factory Lisboa: Incubation Programme, closing date","due":"2026-12-01","said":"closes Tuesday 1 December 2026, as the source states it (read 2026-11-26)","corrects":"call.lisboa-unicorn-factory-lisboa-incubation-programme.2026-12-03"}
++{"type":"prediction","id":"call.european-union-eit-community-new-european-bauhaus-catalyse-neb.2027-01-15","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#european-union-eit-community-new-european-bauhaus-catalyse-neb","shown_at":"2026-11-26T07:14Z","said_by":"www.climate-kic.org","source":"https://www.climate-kic.org/get-involved/open-calls/","licence":{"name":"the source's terms","url":"https://www.climate-kic.org/"},"kind":"expected-date","subject":"EIT Community New European Bauhaus: Catalyse NEB, closing date","due":"2027-01-15","said":"closes Friday 15 January 2027, as the source states it (read 2026-11-21)"}
++{"type":"prediction","id":"call.european-union-eic-pre-accelerator.2027-11-18","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#european-union-eic-pre-accelerator","shown_at":"2026-11-26T07:14Z","said_by":"eic.ec.europa.eu","source":"https://eic.ec.europa.eu/eic-funding-opportunities/eic-pre-accelerator_en","licence":{"name":"Creative Commons Attribution 4.0 International (CC BY 4.0), under Commission Dec","url":"https://creativecommons.org/licenses/by/4.0/"},"kind":"expected-date","subject":"EIC Pre-Accelerator, closing date","due":"2027-11-18","said":"closes Thursday 18 November 2027, as the source states it (read 2026-11-21)"}
+diff --git a/data/research/lisbon-porto-national.json b/data/research/lisbon-porto-national.json
+index 18745bd..6892c19 100644
+--- a/data/research/lisbon-porto-national.json
++++ b/data/research/lisbon-porto-national.json
+@@ -8,11 +8,11 @@
+    "name": "Unicorn Factory Lisboa: Incubation Programme",
+    "kind": "incubator",
+    "place": "lisboa",
+-   "what": "No-equity support for founders from pre-seed to seed. Applications for the current batch close on 3 December 2026.",
++   "what": "No-equity support for founders from pre-seed to seed. Applications for the current batch close on 1 December 2026, as the organiser's two pages now say (the first reading, on 17 November, gave 3 December).",
+    "url": "https://unicornfactorylisboa.com/incubation/",
+    "source_url": "https://unicornfactorylisboa.com/active-programs/",
+-   "read_on": "2026-11-17",
+-   "date": "2026-12-03",
++   "read_on": "2026-11-26",
++   "date": "2026-12-01",
+    "status": "open",
+    "organiser": "Unicorn Factory Lisboa",
+    "organiser_source": "own",
+diff --git a/data/research/refresh-2026-11-26.json b/data/research/refresh-2026-11-26.json
+index ee96dbc..c3e3573 100644
+--- a/data/research/refresh-2026-11-26.json
++++ b/data/research/refresh-2026-11-26.json
+@@ -3,7 +3,7 @@
+  "country": "PT",
+  "read_on": "2026-11-26",
+  "area": "refresh-2026-11-26",
+- "notes": "First pass of the cl-6 session, 26 November 2026. The seed round was found with WebSearch and read in the page's raw HTML (curl); the amount, the date and the three investor names match the article. The open calls' dates were re-read at source the same day and are listed in REALITY.md; two could not be re-confirmed (see gaps).",
++ "notes": "First pass of the cl-6 session, 26 November 2026. The seed round was found with WebSearch and read in the page's raw HTML (curl); the amount, the date and the three investor names match the article. The open calls' dates were re-read at source the same day and are listed in REALITY.md; two could not be re-confirmed (see gaps). Second pass, 07:14 UTC the same day: the two calls first recorded as gaps were re-read. ARRISCA C 2026 closes at 23:59 on Friday 18 December (ipressjournal.pt article, read 26 November): confirmed. Unicorn Factory Lisboa's Incubation Programme now closes on 1 December 2026 (the programme page and the active programs page, both read 26 November); the 17 November reading said 3 December, so the entry is corrected in lisbon-porto-national.json and the prediction gets a correcting line. The INPI/EUIPO SME Fund (4 December) was re-read and matches. A second search at 07:14 UTC found Hope Care's Series A (8 September 2026), which is already in data/research/lisbon-porto-national.json, so it was not added again.",
+  "entries": [
+   {
+    "name": "Seamoretech first seed closing",
+@@ -25,16 +25,5 @@
+    "how_read": "curl of the page, text read from the raw HTML by cl-6.startups"
+   }
+  ],
+- "gaps": [
+-  {
+-   "url": "https://unicornfactorylisboa.com/active-programs/",
+-   "what": "Unicorn Factory Lisboa: Incubation Programme, closing date 3 December 2026 (shown on /calls/ from the 18 November reading)",
+-   "why": "On the first reading of 26 November the page listed other programmes with their dates but not this one's 3 December date; a second reading was served a bot-check page (a reload after 5 seconds), which we do not work around. The date is not re-confirmed."
+-  },
+-  {
+-   "url": "https://ipressjournal.pt/universidade-de-coimbra-abre-concurso-nacional-de-ideias-de-negocio/",
+-   "what": "ARRISCA C 2026, closing date 18 December 2026",
+-   "why": "The article page read on 26 November does not state the date in its text, and a later reading was served a bot-check page. The date is not re-confirmed."
+-  }
+- ]
++ "gaps": []
+ }
+-- 
+2.43.0
+

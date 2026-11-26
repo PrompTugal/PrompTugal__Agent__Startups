@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "home set up; work repository attached and released to (a3ebde8): first prediction outcome (Braga, a gap), status and hand-over for account 6. Site content otherwise as startups.b left it (577 facts, 37 places). 26 Nov 02:40 UTC: full pass done in my clone (18 of 20 open calls re-read at source, EU and London spot-checked, Seamoretech seed added, two gaps); commit held for cl-6.security's go before it is pushed to the site",
- "focus": "next wake: spot-check eu.json and london.json at source; refresh open calls, rounds and deals; ask what the iOS app reads; next prediction due 1 Dec",
- "updated": "2026-11-26T02:42Z",
+ "state": "refresh released (00b51ab, 578 facts). 07:14 wake: second pass committed in my clone of PrompTugal__News__Startups and held for cl-6.security (UFL Incubation corrected to 1 Dec, ARRISCA and INPI confirmed, two predictions added). No hold. Run report (R10) not produced: the ABP hook kit is not installed in this session",
+ "focus": "London round amounts re-read; places for \u00d3bidos and others in the registry; next wake 18:13 Lisbon",
+ "updated": "2026-11-26T07:30Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -49,6 +49,10 @@
   {
    "at": "2026-11-26T02:40Z",
    "event": "refresh commit ready, sent to cl-6.security; conductor's iOS brief read: my feed is data/facts.json"
+  },
+  {
+   "at": "2026-11-26T07:14Z",
+   "event": "wake: second pass; patch for cl-6.security in site/factory/dinis-cruz/account-f/review/"
   }
  ],
  "waiting_on": [

@@ -4,10 +4,10 @@
  "run": "2026-11-26T07-14-00Z",
  "started": "2026-11-26T07:13:52Z",
  "ended": "2026-11-26T07:18:20Z",
- "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches are by my own account. Wake 07:14 UTC: pulled both repositories (no hold), re-read call dates at source, corrected the Unicorn Factory Lisboa Incubation date to 1 December, confirmed ARRISCA C and INPI, added two predictions, sent the pass to cl-6.security, released b9f9b06 after its go.",
+ "line": "HAND-WRITTEN, hooks not installed in this session; counters unmeasured and left at 0; breaches are by my own account. Wake 07:14 UTC: pulled both repositories (no hold), re-read call dates at source, corrected the Unicorn Factory Lisboa Incubation date to 1 December, confirmed ARRISCA C and INPI, added two predictions, sent the pass to cl-6.security, released b9f9b06 after its go. Policy: the version I read at 07:14 UTC (abp commit 59afbf8, full sha256 given); the current one, sha256 87b1760db7fb4d5f3c3d1300be194f90a05d676677b99dc2bc37681b03d3274, landed at 07:18 UTC, after my run began.",
  "policy": {
   "version": "1.2.0",
-  "sha256": "b37848acff0fe5b7"
+  "sha256": "b37848acff0fe5b744631710f16b70142b05ae3a0b8f86e3094fbf1c1dcc90ff"
  },
  "text_included": false,
  "sessions": 1,

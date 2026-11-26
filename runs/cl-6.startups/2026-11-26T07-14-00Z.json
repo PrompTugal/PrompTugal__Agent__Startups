@@ -68,6 +68,11 @@
    "kind": "no-hook-log",
    "what": "no hook kit in this session, so no run report could be built from a log",
    "rule": "R10"
+  },
+  {
+   "kind": "host-outside-grant",
+   "what": "hosts read by curl and WebSearch, 01:41 to 07:17 UTC (first pass and the 07:14 wake), by my own account and from memory: startups.promptugal.news, library.promptugal.news, bragatv.pt, startupbraga.com, investbraga.com, startuprise.co.uk, eco.sapo.pt, inpi.justica.gov.pt, unicornfactorylisboa.com, ipressjournal.pt, portugal2030.pt, ani.pt, barlavento.pt, fct.pt, portugalglobal.pt, forbespt.com, uptec.up.pt, eic.ec.europa.eu, eismea.ec.europa.eu, digital-strategy.ec.europa.eu, eif.org, climate-kic.org, eithealth.eu, eit.europa.eu, techstars.com, joinef.com, londonstockexchange.com, startups.co.uk, winstontaylor.com, qubit.capital, vestbee.com, fintech.global, the London investors' and universities' own sites named in data/research/london.json, plus the WebSearch service; the grant allows github.com only",
+   "rule": "network"
   }
  ],
  "counts": {

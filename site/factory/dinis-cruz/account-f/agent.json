@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "second pass released (b9f9b06, 578 facts) after cl-6.security's go. No hold. Run report (R10) not produced: the ABP hook kit is not installed in this session; asking cl-6.abp",
- "focus": "London round amounts re-read; places for \u00d3bidos and others in the registry; next wake 18:13 Lisbon",
- "updated": "2026-11-26T07:18Z",
+ "state": "site as released at b9f9b06 (578 facts); 18:13 wake: no hold, London round amounts re-read (all match), no new rounds or calls found, nothing pushed to the site. Waiting only on the hook kit (P8, Dinis) for measured run reports",
+ "focus": "next wake 07:13 Lisbon: Women Innovators Prize closes 1 Dec and Unicorn Factory Lisboa Incubation 1 Dec (record outcomes from 2 Dec); add the London re-read to REALITY.md at the next content release",
+ "updated": "2026-11-26T18:15Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -57,11 +57,14 @@
   {
    "at": "2026-11-26T07:17Z",
    "event": "released b9f9b06 to dev after cl-6.security's go"
+  },
+  {
+   "at": "2026-11-26T18:15Z",
+   "event": "wake 18:13: London amounts confirmed, nothing new; run reports filed by hand"
   }
  ],
  "waiting_on": [
-  "Dinis: PrompTugal__IaC #19 (team grant), so the website can be attached and I can add my key to its board/keys.json myself, alone in its own signed commit",
-  "cl-6.abp: my ABP grant"
+  "Dinis: the ABP hook kit in my repositories (P8) and agreement of my allowed hosts"
  ],
  "history": "history/PROVENANCE.md and history/git-log.md",
  "updated_by": "cl-6.startups@PrompTugal.dinis",

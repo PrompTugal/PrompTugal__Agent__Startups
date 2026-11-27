@@ -1,0 +1,56 @@
+From 1a61a51fd74f1ac89d937b0152eba2008369702d Mon Sep 17 00:00:00 2001
+From: "cl-6.startups@PrompTugal.dinis" <cl-6.startups@PrompTugal.dinis>
+Date: Fri, 27 Nov 2026 07:15:41 +0000
+Subject: [PATCH] cl-6.startups@PrompTugal.dinis: 27 Nov wake: Mission Carbon 0
+ closes 15 Dec (corrected), other call dates re-confirmed
+
+Agent: cl-6.startups@PrompTugal.dinis
+Issue: WS-177
+For: Dinis
+Claude-Session: https://claude.ai/code/session_016CrbJHzEkmE5jEdT2WpVzC
+---
+ REALITY.md                               | 1 +
+ data/predictions/predictions.jsonl       | 1 +
+ data/research/lisbon-porto-national.json | 6 +++---
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/REALITY.md b/REALITY.md
+index 5968875..31472b0 100644
+--- a/REALITY.md
++++ b/REALITY.md
+@@ -46,3 +46,4 @@
+ - **The EU, 21 November 2026 (08:43 wake):** `data/research/eu.json` (17 facts about EU programmes and money open to startups in Portugal, place european-union). `/places/` groups London and the EU under "Beyond Portugal", and the map shows London and Brussels (the EU) as small insets. The build counts 577 facts in 37 places.
+ - **Account 6 refresh, 26 November 2026 (cl-6.startups@PrompTugal.dinis, first pass):** 18 of the 20 calls in the open group on `/calls/` had their closing dates re-read at their source pages on 26 November and all 18 matched (Women Innovators Prize 1 Dec; Mission Carbon 6 Dec; Santander Explorer 10 Dec; Global ScalingUp 13 Dec; Centro2030 incubators 28 Dec; ANI SIID 29 Dec; MPr-2026-07 29 Dec; InovIA vouchers 31 Dec; Rising Up in Spain 31 Dec; From Start to Table 10 Jan; ALGARVE-2026-3, -5 and -6 15 Jan; EIT Catalyse NEB 15 Jan; Amarsul|Valorsul 25 Jan; ALT2030-2026-57 26 Feb; Techstars London 8 Mar; EIC Pre-Accelerator 18 Nov 2027; INPI/EUIPO SME Fund 4 Dec was not re-read). Not re-confirmed, both recorded as gaps in `data/research/refresh-2026-11-26.json`: Unicorn Factory Lisboa Incubation Programme (3 Dec: the page no longer lists that date, then a bot-check page) and ARRISCA C 2026 (18 Dec: not stated on the page read, then a bot-check page). `eu.json` figures were spot-checked at source (EIC Accelerator, Pre-Accelerator, Transition, Women TechEU 2, EIC Fund): they match, including the two pages' disagreement on the Women TechEU 2 final cut-off. `london.json`: all 28 source pages answered 200 and name the entry; Techstars London's 8 March 2027 deadline matched. One new fact: Seamoretech's EUR 1.1 million seed first closing (2 November 2026, Porto): 578 facts. Prediction outcome: Braga Global Health Accelerator (due 23 November) recorded as a gap. Not done: the INPI call and the London rounds' amounts were not re-read; the iOS app's feed is not yet agreed.
+ - **Second pass, 26 November 2026, 07:14 UTC (cl-6.startups wake):** re-read at source: ARRISCA C 2026 (closes 23:59 on 18 December: confirmed), INPI/EUIPO SME Fund (4 December: confirmed). Corrected: Unicorn Factory Lisboa Incubation Programme closes on 1 December 2026 (its programme page and active programs page), not 3 December; the prediction has a correcting line. No new fact: the one round found by a second search, Hope Care's EUR 6 million Series A (8 September 2026, ECO), was already on the site (578 facts). Predictions: lines added for the EIT Catalyse NEB call and the EIC Pre-Accelerator, which were open but had none. Still not re-read: London round amounts.
++- **Wake of 27 November 2026, 07:14 UTC (cl-6.startups):** every open call's closing date was re-read at its source page; all matched except one correction: Unicorn Factory Lisboa's Mission Carbon 0 now closes on 15 December 2026 (its active programs page), not 6 December (the 17 and 18 November readings); the prediction has an appended correcting line. That organiser has moved two dates in two days (Incubation Programme 3 to 1 December, Mission Carbon 0 6 to 15 December), so its dates are read again at every wake. Two search passes found no new Portuguese round dated 26 or 27 November. Candidates not added: Spotlite (EUR 3.5 million seed, Coimbra, tech.eu, 3 December 2025), Seedsight (EUR 1.78 million, source not read). 578 facts.
+diff --git a/data/predictions/predictions.jsonl b/data/predictions/predictions.jsonl
+index 53cf5fc..dd4d9f0 100644
+--- a/data/predictions/predictions.jsonl
++++ b/data/predictions/predictions.jsonl
+@@ -21,3 +21,4 @@
+ {"type":"prediction","id":"call.lisboa-unicorn-factory-lisboa-incubation-programme.2026-12-01","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#lisboa-unicorn-factory-lisboa-incubation-programme","shown_at":"2026-11-26T07:14Z","said_by":"Unicorn Factory Lisboa","source":"https://unicornfactorylisboa.com/active-programs/","licence":{"name":"the source's terms","url":"https://unicornfactorylisboa.com/terms-and-conditions/"},"kind":"expected-date","subject":"Unicorn Factory Lisboa: Incubation Programme, closing date","due":"2026-12-01","said":"closes Tuesday 1 December 2026, as the source states it (read 2026-11-26)","corrects":"call.lisboa-unicorn-factory-lisboa-incubation-programme.2026-12-03"}
+ {"type":"prediction","id":"call.european-union-eit-community-new-european-bauhaus-catalyse-neb.2027-01-15","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#european-union-eit-community-new-european-bauhaus-catalyse-neb","shown_at":"2026-11-26T07:14Z","said_by":"www.climate-kic.org","source":"https://www.climate-kic.org/get-involved/open-calls/","licence":{"name":"the source's terms","url":"https://www.climate-kic.org/"},"kind":"expected-date","subject":"EIT Community New European Bauhaus: Catalyse NEB, closing date","due":"2027-01-15","said":"closes Friday 15 January 2027, as the source states it (read 2026-11-21)"}
+ {"type":"prediction","id":"call.european-union-eic-pre-accelerator.2027-11-18","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#european-union-eic-pre-accelerator","shown_at":"2026-11-26T07:14Z","said_by":"eic.ec.europa.eu","source":"https://eic.ec.europa.eu/eic-funding-opportunities/eic-pre-accelerator_en","licence":{"name":"Creative Commons Attribution 4.0 International (CC BY 4.0), under Commission Dec","url":"https://creativecommons.org/licenses/by/4.0/"},"kind":"expected-date","subject":"EIC Pre-Accelerator, closing date","due":"2027-11-18","said":"closes Thursday 18 November 2027, as the source states it (read 2026-11-21)"}
++{"type":"prediction","id":"call.lisboa-unicorn-factory-lisboa-mission-carbon-0.2026-12-15","site":"startups.promptugal.news","page":"https://startups.promptugal.news/calls/#lisboa-unicorn-factory-lisboa-mission-carbon-0","shown_at":"2026-11-27T07:15Z","said_by":"Unicorn Factory Lisboa","source":"https://unicornfactorylisboa.com/active-programs/","licence":{"name":"the source's terms","url":"https://unicornfactorylisboa.com/terms-and-conditions/"},"kind":"expected-date","subject":"Unicorn Factory Lisboa: Mission Carbon 0, closing date","due":"2026-12-15","said":"closes Tuesday 15 December 2026, as the source states it (read 2026-11-27)","corrects":"call.lisboa-unicorn-factory-lisboa-mission-carbon-0.2026-12-06"}
+diff --git a/data/research/lisbon-porto-national.json b/data/research/lisbon-porto-national.json
+index 6892c19..a663428 100644
+--- a/data/research/lisbon-porto-national.json
++++ b/data/research/lisbon-porto-national.json
+@@ -22,11 +22,11 @@
+    "name": "Unicorn Factory Lisboa: Mission Carbon 0",
+    "kind": "call",
+    "place": "lisboa",
+-   "what": "Pilots of carbon-neutral solutions for Lisbon in mobility tech and cleantech, involving startups, companies and the city. Applications close on 6 December 2026.",
++   "what": "Pilots of carbon-neutral solutions for Lisbon in mobility tech and cleantech, involving startups, companies and the city. Applications close on 15 December 2026.",
+    "url": "https://unicornfactorylisboa.com/active-programs/",
+    "source_url": "https://unicornfactorylisboa.com/active-programs/",
+-   "read_on": "2026-11-17",
+-   "date": "2026-12-06",
++   "read_on": "2026-11-27",
++   "date": "2026-12-15",
+    "status": "open",
+    "organiser": "Unicorn Factory Lisboa",
+    "organiser_source": "own",
+-- 
+2.43.0
+

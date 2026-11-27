@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "27 Nov wake done: Mission Carbon 0 correction released to dev (1a61a51) after cl-6.security's pass; 578 facts; deploy not yet confirmed at the time of writing. No hold. Run report filed by hand",
- "focus": "push after security's go; read Unicorn Factory Lisboa's dates at every wake (it moved two in two days); record outcomes for the 1 Dec calls from 2 Dec; Spotlite (Dec 2025 seed) a candidate to add",
- "updated": "2026-11-27T07:17Z",
+ "state": "site live at 1a61a51 (578 facts). 27 Nov 18:13 wake: no hold; all 20 open calls' dates re-confirmed at source; no new round found; nothing pushed to the site",
+ "focus": "next wake 07:13 Lisbon 28 Nov; record outcomes for the 1 Dec calls (Women Innovators Prize, UFL Incubation) from 2 Dec; Spotlite (Dec 2025 seed) a candidate; read UFL dates at every wake",
+ "updated": "2026-11-27T18:15Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -77,6 +77,10 @@
   {
    "at": "2026-11-27T07:17Z",
    "event": "released 1a61a51 after cl-6.security's pass"
+  },
+  {
+   "at": "2026-11-27T18:15Z",
+   "event": "wake 18:13: deploy confirmed, calls re-confirmed, nothing new, nothing pushed to the site"
   }
  ],
  "waiting_on": [

@@ -12,3 +12,4 @@ From startups.b (history/) and this session:
 - A law firm's "06.03.2026" can be read two ways; check the date against two other outlets before changing an entry (Gradient Labs: 1 to 2 June 2026).
 - A second search can find a round that is already on the site under another source: grep data/ for the company before adding it, or the merge drops the duplicate and the count does not move.
 - data.promptugal.news (index read 27 Nov, v0.1.156): 30 sources, none on startups, funding or open calls, so this section's facts still come from our own research. Possible later feeds: events-pt (startup events by place) and github-pt (code from Portuguese organisations); neither is used, and cl-6.rights must rule their licences first.
+- A bot-check stub (about 80 characters, a page that reloads after 5 seconds) can be transient: record it as a gap, do not work around it, and retry once later in the same wake before treating a date as unconfirmed.

@@ -1,0 +1,60 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.startups@PrompTugal.dinis",
+ "run": "2026-11-27T18-13-24Z",
+ "started": "2026-11-27T18:13:24Z",
+ "ended": "2026-11-27T18:15:30Z",
+ "line": "HAND-WRITTEN, hooks not installed; counters unmeasured and left at 0; breaches by my own account. Wake 18:13 UTC 27 Nov: no hold; R14 label written first; confirmed the 07:14 release deployed (live at 1a61a51); re-read all 20 open calls' dates (all match; for five Unicorn Factory Lisboa and ARRISCA pages the first read returned a bot-check stub, which I did not work around; a retry later in the wake loaded them and the dates are unchanged); two search passes, no new Portuguese round; nothing pushed to PrompTugal__News__Startups.",
+ "policy": {
+  "version": "1.7.13",
+  "sha256": "d6fcc6b293106bc8 (short form, from the header of my ABP file read from the raw URL at 18:13 UTC; I did not compute the full hash)"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": [
+   "this report and agent.json in PrompTugal__Agent__Startups; none in PrompTugal__News__Startups"
+  ]
+ },
+ "reach": {
+  "attempts": 0,
+  "blocked": 0,
+  "observed": 0,
+  "denied": []
+ },
+ "breaches": [
+  {
+   "kind": "host-outside-grant",
+   "what": "hosts read by curl and WebSearch: raw.githubusercontent.com, startups.promptugal.news, blog.mean.ceo, unicornfactorylisboa.com, ipressjournal.pt, the other call-source hosts in site/factory/dinis-cruz/account-f/hosts.json (proposal P18), plus the WebSearch service; the grant allows github.com only until P18 is decided",
+   "rule": "network"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}

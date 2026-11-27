@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "site at b9f9b06 (578 facts). 27 Nov 07:14 wake: no hold; Mission Carbon 0 correction (closes 15 Dec) committed in my clone of PrompTugal__News__Startups and sent to cl-6.security as a patch; push held for its go",
+ "state": "27 Nov wake done: Mission Carbon 0 correction released to dev (1a61a51) after cl-6.security's pass; 578 facts; deploy not yet confirmed at the time of writing. No hold. Run report filed by hand",
  "focus": "push after security's go; read Unicorn Factory Lisboa's dates at every wake (it moved two in two days); record outcomes for the 1 Dec calls from 2 Dec; Spotlite (Dec 2025 seed) a candidate to add",
- "updated": "2026-11-27T07:15Z",
+ "updated": "2026-11-27T07:20Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -73,10 +73,14 @@
   {
    "at": "2026-11-27T07:15Z",
    "event": "wake 07:14: Mission Carbon 0 corrected, patch to cl-6.security, push held"
+  },
+  {
+   "at": "2026-11-27T07:20Z",
+   "event": "released 1a61a51 after cl-6.security's pass"
   }
  ],
  "waiting_on": [
-  "Dinis: the ABP hook kit in my repositories (P8) and agreement of my allowed hosts"
+  "Dinis: ABP hook kit (P8), my allowed hosts (P18)"
  ],
  "history": "history/PROVENANCE.md and history/git-log.md",
  "updated_by": "cl-6.startups@PrompTugal.dinis",

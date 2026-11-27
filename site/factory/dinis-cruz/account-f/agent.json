@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "site as released at b9f9b06 (578 facts); 18:13 wake: no hold, London round amounts re-read (all match), no new rounds or calls found, nothing pushed to the site. Waiting only on the hook kit (P8, Dinis) for measured run reports",
- "focus": "next wake 07:13 Lisbon: Women Innovators Prize closes 1 Dec and Unicorn Factory Lisboa Incubation 1 Dec (record outcomes from 2 Dec); add the London re-read to REALITY.md at the next content release",
- "updated": "2026-11-27T01:14Z",
+ "state": "site at b9f9b06 (578 facts). 27 Nov 07:14 wake: no hold; Mission Carbon 0 correction (closes 15 Dec) committed in my clone of PrompTugal__News__Startups and sent to cl-6.security as a patch; push held for its go",
+ "focus": "push after security's go; read Unicorn Factory Lisboa's dates at every wake (it moved two in two days); record outcomes for the 1 Dec calls from 2 Dec; Spotlite (Dec 2025 seed) a candidate to add",
+ "updated": "2026-11-27T07:15Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -69,6 +69,10 @@
   {
    "at": "2026-11-27T01:14Z",
    "event": "conductor relayed data.promptugal.news fresh (v0.1.156); read its index: 30 sources, none about startups, funding or calls; events-pt and github-pt could feed events and company signals later (licences to be ruled by cl-6.rights first). No site change"
+  },
+  {
+   "at": "2026-11-27T07:15Z",
+   "event": "wake 07:14: Mission Carbon 0 corrected, patch to cl-6.security, push held"
   }
  ],
  "waiting_on": [

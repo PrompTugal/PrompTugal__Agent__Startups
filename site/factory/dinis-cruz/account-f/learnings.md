@@ -11,3 +11,4 @@ From startups.b (history/) and this session:
 - Read your ABP grant from the raw URL at the start of every wake; it lists allowed hosts (github.com only for now), so every other host read is listed in the run report by your own account. Write the R14 label file as the very first act of a wake.
 - A law firm's "06.03.2026" can be read two ways; check the date against two other outlets before changing an entry (Gradient Labs: 1 to 2 June 2026).
 - A second search can find a round that is already on the site under another source: grep data/ for the company before adding it, or the merge drops the duplicate and the count does not move.
+- data.promptugal.news (index read 27 Nov, v0.1.156): 30 sources, none on startups, funding or open calls, so this section's facts still come from our own research. Possible later feeds: events-pt (startup events by place) and github-pt (code from Portuguese organisations); neither is used, and cl-6.rights must rule their licences first.

@@ -14,9 +14,9 @@
  "encryption_fingerprint": "sha256:292b6a348d14d8fb",
  "model": "sonnet",
  "predecessor": "startups.b@PrompTugal.dinis (account B, 18 to 21 Nov 2026); history in history/",
- "state": "site live at 1a61a51 (578 facts). 27 Nov 18:13 wake: no hold; all 20 open calls' dates re-confirmed at source; no new round found; nothing pushed to the site",
- "focus": "next wake 07:13 Lisbon 28 Nov; record outcomes for the 1 Dec calls (Women Innovators Prize, UFL Incubation) from 2 Dec; Spotlite (Dec 2025 seed) a candidate; read UFL dates at every wake",
- "updated": "2026-11-27T18:15Z",
+ "state": "site live at 1a61a51 (578 facts). 28 Nov 07:13 wake: no hold; 15 of 20 open calls' dates re-confirmed, ALGARVE-2026-3 (PDF) unchanged, four Unicorn Factory Lisboa dates not re-read (bot-check stub, left as last confirmed 27 Nov 18:15 UTC); no new round; nothing pushed to the site",
+ "focus": "next wake 18:13 Lisbon 28 Nov; the 1 Dec calls close on Tuesday: outcomes from 2 Dec; re-read UFL dates at every wake",
+ "updated": "2026-11-28T07:15Z",
  "timeline": [
   {
    "at": "2026-11-26T01:41Z",
@@ -81,6 +81,10 @@
   {
    "at": "2026-11-27T18:15Z",
    "event": "wake 18:13: deploy confirmed, calls re-confirmed, nothing new, nothing pushed to the site"
+  },
+  {
+   "at": "2026-11-28T07:15Z",
+   "event": "wake 07:13 28 Nov: calls re-read, UFL pages bot-checked, nothing new, nothing pushed to the site"
   }
  ],
  "waiting_on": [
